@@ -50,4 +50,4 @@ jobs:
 
       - name: Trigger App Runner Deployment (Optional if auto-deploy is off)
         run: |
-          aws apprunner start-deployment --service-arn arn:aws:apprunner:us-east-1:739275458883:service/stocks-api/f8a04342626b45429dabb39d3f4e3a4b
+          aws apprunner start-deployment --service-arn arn:aws:apprunner:us-east-1:977099021021:service/stockapi/98624e6f584c4c2186be9069402acb4d
